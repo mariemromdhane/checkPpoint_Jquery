@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Armata|Charmonman|Kalam|Quantico|Sacramento|Srisakdi|Yellowtail" rel="stylesheet">
+    <link rel="icon" type="image/jpg" href="res/icon.png">
+    <title>Checkpoint4</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+</head>
+<body >
+        <div class="flex-container">
+          <button class="button" id="bold" type="button"> <i class="fas fa-bold"></i></button>
+          <button class="button" id="italic" type="button"><i class="fas fa-italic"></i></button>
+          <button class="button" id="underlined" type="button"><i class="fas fa-underline"></i></button>
+
+             <select  id="style" title="style" class="button ">
+                <i class="fas fa-font"></i>
+                    <option >initial</option>
+                    <option >Sacramento</option>
+                    <option >Kalam</option>
+                    <option >Yellowtail</option>
+                    <option >Armata</option>
+                    <option >Quantico</option>
+                    <option >Charmonman</option>
+                    <option >Srisakdi</option>
+             </select>
+
+             <select  id="Taille" title="Taille" class="button taille_menu">
+                    <option class="taille_menu" >30px</option>
+                    <option class="taille_menu" >26px</option>
+                    <option class="taille_menu" >22px</option>
+                    <option class="taille_menu" >18px</option>
+                    <option class="taille_menu" >16px</option>
+                    <option class="taille_menu" >12px</option>
+
+             </select>
+       </div>
+
+<div class="paragrah">
+
+      <textarea name="" id="textarea" >
+        We're going to make a program that looks like Microsoft Word.
+        There will be one paragrah and a bunch of buttons.
+        Each button will have an onclick attribute that will link to a different javascript function. 
+        These buttons will have unique names and should do the following : 
+        -one button to make the paragraph bold
+        -one button to make the paragraph italic
+        -one button to make the paragraph underlined
+        -one dropdown list that will have a bunch of fonts, and when you click on one the paragraph’s font will change to it. 
+        - one dropdown list that will have a bunch of numbers (choose whatever you want) and when you click on it the paragraph’s font size changes to that.</textarea>
+ </div>
+
+</body>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="js/main.js"></script>
+</html> 
